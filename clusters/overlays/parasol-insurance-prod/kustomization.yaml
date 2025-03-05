@@ -5,7 +5,7 @@ namespace: openshift-gitops
 
 resources:
   - ../../base
-  - ../../../components/argocd/apps/overlays/parasol-insurance-dev
+  - ../../../components/argocd/apps/overlays/parasol-insurance-prod
 
 patches:
   # set the repo and branch for applications
