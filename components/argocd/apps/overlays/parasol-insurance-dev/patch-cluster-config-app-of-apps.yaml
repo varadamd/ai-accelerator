@@ -4,4 +4,4 @@ metadata:
   name: cluster-config-app-of-apps
 spec:
   source:
-    path: clusters/overlays/parasol-insurance-dev
+    path: clusters/overlays/parasol-insurance-prod
