@@ -85,6 +85,7 @@ spec:
           envFrom:
             - secretRef:
                 name: minio-data-connection
+                name: AWS_S3_BUCKET
       enableServiceLinks: false
       serviceAccountName: custom-workbench
       volumes:
