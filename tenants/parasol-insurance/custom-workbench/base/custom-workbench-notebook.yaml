@@ -85,7 +85,6 @@ spec:
           envFrom:
             - secretRef:
                 name: minio-data-connection
-                name: pipelines
       enableServiceLinks: false
       serviceAccountName: custom-workbench
       volumes:
